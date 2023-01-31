@@ -11,7 +11,8 @@ def difference(x, y):
     Returns:
         int: Absolute difference between x and y
     """
-    return y - x # this has a bug (don't fix it yet though)
+    diff = y - x # this has a bug (don't fix it yet though)
+    return diff
 
 def draw_square(my_turtle, size):
     for i in range(4):
